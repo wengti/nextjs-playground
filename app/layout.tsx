@@ -25,6 +25,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased m-6`}
             >
+                <div className='mb-12'>This is the Root Layout.</div>
                 {children}
             </body>
         </html>

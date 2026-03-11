@@ -2,9 +2,7 @@ import NavLinks from "@/components/nav-links";
 
 export default async function DynamicFetchDataPage() {
 
-    console.log('\n---[INFO] Rendering Dynamic Page that fetches data---')
-    console.log('BUILT: The above message should be seen everytime this route is accessed.')
-    console.log('DEV: The above message will be seen everytime this route is accessed.')
+    console.log('\n---[INFO] Rendering Dynamic Page that fetches data without caching it---')
     const res = await fetch('https://jsonplaceholder.typicode.com/posts/2', {cache: 'no-store'})
     const data = await res.json()
 
