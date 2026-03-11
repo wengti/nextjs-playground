@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/dynamic-layout-makes-static-child-dynamic/second-child"  ],
   "exclude": ["node_modules"]
 }
